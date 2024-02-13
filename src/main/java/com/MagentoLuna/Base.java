@@ -3,8 +3,10 @@ package com.MagentoLuna;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -36,8 +38,8 @@ public class Base {
         String Browser= System.getProperty("Browser","Chrome");
         switch (Browser){
             case "Chrome"->{
-                WebDriverManager.chromedriver().setup();
-                driver=new ChromeDriver();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("headless");
             }
             case "Firefox"->{
                 driver=new FirefoxDriver();
