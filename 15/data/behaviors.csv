@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Login Functionality","Login with valid credential","0","0","2","0","0"
+"","SignUp Functionality","Create an account","0","0","1","0","0"
+"","SearchBar Functionality","Search item via flex search","0","1","1","0","0"
