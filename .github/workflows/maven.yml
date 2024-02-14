@@ -3,9 +3,8 @@ name: Selenium E2E test
 on:
   push:
     branches: [main]
-  workflow_dispatch:
   schedule:
-    - cron: '35 * * * *'
+    - cron: '40 * * * *'
 
 jobs:
   test:
