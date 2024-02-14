@@ -3,7 +3,7 @@ name: Selenium E2E test
 on:
 
   schedule:
-    - cron: '5 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   test:
