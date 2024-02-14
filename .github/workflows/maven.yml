@@ -1,7 +1,7 @@
 name: Selenium E2E test
 
 schedule:
-  - cron: '45 9 * * *'
+  - cron: '58 9 * * *'
 
 jobs:
   test:
