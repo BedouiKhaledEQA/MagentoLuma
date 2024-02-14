@@ -1,6 +1,7 @@
 name: Selenium E2E test
 
-on: [ push ]
+schedule:
+  - cron: '0 9:45 * * *'
 
 jobs:
   test:
