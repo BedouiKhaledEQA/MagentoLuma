@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Feb 12 15:23:20 GMT 2024","Mon Feb 12 15:23:29 GMT 2024","9372","","SignUp Functionality","","Create an account","","Create an account",""
+"passed","Tue Feb 13 09:42:06 GMT 2024","Tue Feb 13 09:42:13 GMT 2024","7202","","Login Functionality","","Login with valid credential","","Login with valid credential",""
+"passed","Mon Feb 12 15:23:29 GMT 2024","Mon Feb 12 15:23:36 GMT 2024","6534","","Login Functionality","","Login with valid credential","","Login with valid credential",""
+"broken","Mon Feb 12 15:23:05 GMT 2024","Mon Feb 12 15:23:20 GMT 2024","14685","","SearchBar Functionality","","Search item via flex search","","Search item via flex search",""
+"passed","Tue Feb 13 09:41:50 GMT 2024","Tue Feb 13 09:42:06 GMT 2024","15742","","SearchBar Functionality","","Search item via flex search","","Search item via flex search",""
