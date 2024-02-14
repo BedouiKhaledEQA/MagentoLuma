@@ -1,7 +1,8 @@
 name: Selenium E2E test
 
 on:
-  push:
+  workflow_dispatch:
+
 
 jobs:
   test:
