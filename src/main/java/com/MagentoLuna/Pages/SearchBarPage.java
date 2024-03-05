@@ -19,6 +19,14 @@ public class SearchBarPage extends SearchBarLocators {
     public SearchBarPage(){
         PageFactory.initElements(driver,this);
     }
+    private static SearchBarPage instance;
+
+    public static SearchBarPage getInstance() {
+        if (instance == null) {
+            instance = new SearchBarPage();
+        }
+        return instance;
+    }
     public void performSearchBar() throws InterruptedException {
         SearchBar.sendKeys(Base.props.getProperty("searchBar"));
         Thread.sleep(2000);

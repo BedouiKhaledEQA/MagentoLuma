@@ -35,7 +35,7 @@ public class Base {
         }
         }
         public static WebDriver luncher(){
-        String Browser= System.getProperty("Browser","Chrome");
+        String Browser= System.getProperty("Browser","Firefox");
         switch (Browser){
             case "Chrome"->{
                 ChromeOptions options = new ChromeOptions();

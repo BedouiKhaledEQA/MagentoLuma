@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
                 plugin = {"pretty","html:target/report.html",
                         "json:target/report.json","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
                 stepNotifications = true,
-                tags = "@smoke")
+                tags = "@Search")
 
 public class TestRunner {
 }

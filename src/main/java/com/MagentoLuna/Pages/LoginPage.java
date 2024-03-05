@@ -6,9 +6,19 @@ import org.junit.Assert;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends LoginLocators {
+    private static LoginPage instance;
     public LoginPage(){
         PageFactory.initElements(driver,this);
     }
+
+    public static LoginPage getInstance() {
+        if (instance == null) {
+            instance = new LoginPage();
+        }
+        return instance;
+    }
+
+
     public void performLogin(){
         signingEnterButton.click();
         email.sendKeys(Base.props.getProperty("email"));
