@@ -1,0 +1,8 @@
+com\MagentoLuna\Locators\LoginLocators.class
+com\MagentoLuna\Locators\SearchBarLocators.class
+com\MagentoLuna\Locators\SignUpLocators.class
+com\MagentoLuna\Pages\UserPage.class
+com\MagentoLuna\Pages\SignUpPage.class
+com\MagentoLuna\Pages\SearchBarPage.class
+com\MagentoLuna\Pages\LoginPage.class
+com\MagentoLuna\Base.class

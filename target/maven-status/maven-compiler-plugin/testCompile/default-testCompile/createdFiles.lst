@@ -1,0 +1,5 @@
+steps\SignUpSteps.class
+steps\LoginSteps.class
+steps\SearchBarSteps.class
+steps\Hooks.class
+runner\TestRunner.class

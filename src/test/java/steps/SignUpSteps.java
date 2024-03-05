@@ -24,4 +24,14 @@ public class SignUpSteps extends Base {
 
     }
 
+    @When("Access with Api")
+    public void access_with_api() {
+
+    }
+    @Then("Signup should be done")
+    public void signup_should_be_done() {
+
+    }
+
+
 }
